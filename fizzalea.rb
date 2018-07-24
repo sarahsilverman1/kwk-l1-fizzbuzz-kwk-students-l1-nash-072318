@@ -1,6 +1,5 @@
-
-number = 10
-if number%3 == 0
+number = 5
+if number%3 && number %5 == 0
   puts "Fizzbuzz"
 elsif number%3 == 0
   puts "Fizz"
